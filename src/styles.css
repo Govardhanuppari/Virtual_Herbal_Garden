@@ -1,0 +1,298 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body, html {
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text */
+    overflow-x: hidden;
+    height: 100%;
+}
+
+/* Header Styling */
+header {
+    background-color: #333;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.logo h2 {
+    color: #00cc00; /* Green text */
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #00cc00; /* Hover effect green */
+}
+
+/* Search Form */
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-container input[type="text"] {
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.search-container .search-button {
+    background-color: #4CAF52; /* Green button */
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 0 5px 5px 0;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.search-container .search-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Hero Section */
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90vh;
+    padding: 100px 50px;
+    background-image: url('assets/back.jpg'); /* Updated path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.hero-content {
+    flex: 1;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.hero-title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #00cc00; /* Green title */
+    text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.6);
+}
+
+.hero-subtitle {
+    font-size: 1.5rem;
+    color: #d4d4d4;
+}
+
+/* Support Section */
+.support-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+    background-color: #121212; /* Matching the body background */
+    text-align: center;
+}
+
+.support-card {
+    background-color: #1d1d1d;
+    padding: 20px;
+    border-radius: 8px;
+    width: 30%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.support-card img {
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+.support-card h3 {
+    color: #00cc00; /* Green for support card titles */
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.support-card p {
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+/* Section Title */
+.section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 50px 0;
+    color: #00cc00; /* Green title */
+}
+
+/* System Cards */
+.systems {
+    width: 100%;
+    padding: 20px;
+    background-color: #1d1d1d;
+}
+
+.system-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    background-color: #2a2a2a;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-image img {
+    width: 350px;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.card-content {
+    flex-grow: 1;
+    padding-left: 20px;
+    color: white;
+}
+
+.card-content h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.card-content p {
+    font-size: 1.2rem;
+}
+
+/* Footer */
+footer {
+    background-color: #111111;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+
+/* Page Content */
+.page-content {
+    display: none;
+    padding: 50px;
+    background-color: #1d1d1d;
+    color: white;
+}
+
+/* Pop-up Styling */
+.popup {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.close {
+    cursor: pointer;
+    float: right;
+    font-size: 18px;
+}
+
+/* Form Styling */
+.container {
+    display: none;
+}
+
+.container.active {
+    display: block;
+}
+
+.login-btn {
+    background-color: #00cc00; /* Green button */
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.login-btn:hover {
+    background-color: #009900; /* Darker green on hover */
+}
+
+/* Wrapper for modals */
+.wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+/* Add to your existing CSS */
+.signup-container {
+    background-color: #1d1d1d; /* Match with your app theme */
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 10px;
+}

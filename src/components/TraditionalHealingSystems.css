@@ -1,0 +1,50 @@
+/* TraditionalHealingSystems.css */
+
+/* Styles for the section title */
+.section-title {
+    color: green; /* Change heading color to green */
+    font-size: 2em; /* Adjust font size */
+    margin-bottom: 20px; /* Space below the title */
+    text-align: center; /* Center the title */
+}
+
+/* Styles for the systems container */
+.systems {
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Allow wrapping of cards */
+    justify-content: center; /* Center align cards */
+    margin: 0 auto; /* Center the container */
+}
+
+/* Styles for individual system cards */
+.system-card {
+    border: 1px solid #ccc; /* Add a border to the card */
+    border-radius: 8px; /* Round the corners */
+    margin: 10px; /* Margin around cards */
+    overflow: hidden; /* Ensure content stays within the card */
+    width: 300px; /* Fixed width for cards */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+/* Styles for card images */
+.card-image img {
+    width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Styles for card content */
+.card-content {
+    padding: 15px; /* Padding inside the card */
+}
+
+.card-content h2 {
+    font-size: 1.5em; /* Adjust heading size in cards */
+    color: darkgreen; /* Dark green color for card headings */
+    margin-bottom: 10px; /* Space below the card heading */
+}
+
+.card-content p {
+    font-size: 1em; /* Font size for card paragraphs */
+    line-height: 1.5; /* Line height for readability */
+    color: #555; /* Color for card text */
+}
