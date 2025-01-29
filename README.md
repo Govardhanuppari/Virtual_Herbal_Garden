@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+🌿 Virtual Herbal Garden
+📌 Abstract
+The Virtual Herbal Garden is an innovative digital platform designed to bridge the gap between traditional herbal knowledge and modern technology. It offers a realistic, interactive, and immersive experience where users can explore medicinal plants through 3D models, detailed plant profiles, and multimedia content like images, videos, and audio descriptions.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The primary goal of this project is to preserve and promote traditional medicinal knowledge by making it globally accessible. Users can search for specific plants, take virtual tours, bookmark favorites, and take notes to enhance their learning experience.
 
-## Available Scripts
+🌟 Key Features
+🌱 Immersive Learning Experience
+3D Models – Rotate, zoom, and explore realistic plant models.
+High-quality multimedia – Each plant has detailed images, videos, and audio descriptions to make learning engaging.
+Interactive virtual tours – Themed tours focusing on specific health benefits (e.g., digestion, immunity, skincare).
+🔍 Smart Search & Filtering
+Advanced search – Find plants by name, medicinal properties, or traditional usage.
+Filters – Sort plants by category, habitat, or regional use.
+✏️ Personalized Learning
+Bookmark plants – Save plants for future reference.
+Take notes – Write down important points or observations.
+🌍 Global Accessibility
+No geographical restrictions – Users can explore medicinal plants from anywhere in the world.
+Available on multiple devices – The platform is optimized for desktop, tablet, and mobile usage.
+🏗️ System Architecture
+The Virtual Herbal Garden is developed using a modern tech stack to ensure scalability, security, and a seamless user experience.
 
-In the project directory, you can run:
+Frontend (User Interface)
+React.js – A fast, interactive, and component-based JavaScript library.
+Three.js / Unity WebGL – For rendering 3D plant models.
+Tailwind CSS – For a clean and responsive design.
+Backend (Server & Database)
+Node.js with Express.js – Handles API requests and authentication.
+MongoDB / PostgreSQL – Stores plant data, user preferences, and notes.
+Hosting & Security
+AWS / Heroku – Cloud hosting for scalability.
+OAuth / JWT Authentication – Secure login and user authentication.
+🔧 How to Set Up the Project
+Follow these steps to set up the Virtual Herbal Garden on your local machine.
 
-### `npm start`
+1️⃣ Clone the Repository
+bash
+Copy
+Edit
+git clone https://github.com/Govardhanuppari/Virtual_Herbal_Garden.git
+cd Virtual_Herbal_Garden
+2️⃣ Install Dependencies
+bash
+Copy
+Edit
+npm install
+3️⃣ Start the Development Server
+bash
+Copy
+Edit
+npm start
+Once the server starts, open http://localhost:3000 in your browser to explore the Virtual Herbal Garden!
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+🛠️ Future Enhancements
+This project is scalable and can be improved in the future with:
+✅ AI-powered plant identification – Users can upload a photo to identify a plant.
+✅ Augmented Reality (AR) Integration – View plants in real-world surroundings.
+✅ Community Contributions – Allow users to contribute and share herbal knowledge.
+✅ Multilingual Support – Enable plant descriptions in different languages.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🤝 Contribution Guidelines
+We welcome contributions to improve the Virtual Herbal Garden! If you'd like to contribute:
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Fork the repository
+Create a new branch
+Make improvements and commit changes
+Push your branch and submit a pull request
+📜 License
+This project is open-source and available under the MIT License. Feel free to use and modify it as needed!
